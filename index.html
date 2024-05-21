@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ED MARTINEZ</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<style>
+body {top: 0; left: 0; width: 99%; height: 97%;
+    position: absolute; display: table}
+  p {display: table-cell; vertical-align: middle; text-align: center}
+#timezone * {text-decoration: none;}
+
+}
+</style>
+
+<script type="text/javascript">
+    // declare time zone formatting
+    let options = {
+        timeZone: 'US/Mountain',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+    },
+    formatter = new Intl.DateTimeFormat([], options);
+
+    // set time
+    setInterval(
+        () => {
+            document.querySelector("#time").innerText = formatter.format(new Date());
+        }
+    , 1000)
+</script>
+</head>
+
+
+
+
+
+<p>
+    <audio controls autoplay loop src="audio/rain-and-dust-constrobuz-anydownloader.com.mp3"></audio>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<font size="7"><i><b>"ED" MARTINEZ</b></i></font> <br>
+<br>
+<br>
+<img src="images/download.gif">
+<br>
+<span id=timezone>
+<i>
+<<a href="//24timezones.com/usa_time/tx_dallas/irving.php" style="text-decoration: none" class="clock24" id="tz24-1716002733-cu112304-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMSIsInNob3d0aW1lem9uZSI6IjEiLCJ0eXBlIjoiZCIsImxhbmciOiJlbiJ9" title="Irving time" target="_blank" rel="nofollow">Time in Irving</a>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>>
+</i>
+</span>
+<br><br>
+
+<a href="about.html">about</a> //
+<a href="Resume DEV.pdf">resume</a> //
+<a href="contact.html">contact</a>
+
+<br>
+<br>
+</body>
+</html>
